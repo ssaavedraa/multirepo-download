@@ -6,7 +6,7 @@ const { cloneRepositories } = require('./cloneRepositories');
 const filePath = './links.txt';
 
 // Ruta de la carpeta donde quieres clonar los repositorios
-const clonePath = '../repositories/';
+const clonePath = './repositories/';
 
 fs.readFile(filePath, 'utf8', async (err, data) => {
 	if (err) {
