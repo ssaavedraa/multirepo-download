@@ -4,7 +4,7 @@
 
 1. Create links.txt file
 2. Add repository links to `links.txt` file (separated by a new line)
-3. Run using `node index.txt` The script will create the required folder with all the repositories cloned inside.
+3. Run using `node index.js` The script will create the required folder with all the repositories cloned inside.
 
 - If want to use docker to setup you database instance:
 
